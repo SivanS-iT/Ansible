@@ -1,2 +1,4 @@
-sambol2@192.168.0.120
-sambol@192.168.0.130
+[webservers]
+sambol2 ansible_host=192.168.0.120 ansible_ssh_user=sambol2 ansible_become_pass=sambol2
+sambol ansible_host=192.168.0.130 ansible_ssh_user=sambol ansible_become_pass=sambol
+
